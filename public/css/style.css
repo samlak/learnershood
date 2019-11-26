@@ -1,0 +1,44 @@
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+.navbar .navbar-toggler .icon-bar{
+    background-color: white !important;
+}
+.profile-menu{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+.profile-image{
+    border-radius: 100%;
+}
+.card-font{
+    font-size: 12px;
+}
+.big-font{
+    font-size: 30px;
+}
+.special-link{
+    color: #17a2b8;
+    font-weight: bolder;
+}
+.special-link:hover{
+    color: #17a2e0;
+    text-decoration: none;
+}
+.no-style-list{
+    list-style-type: none;
+    list-style: none;
+}
+.special-btn{
+    background-color: #17a2b8;
+}
+.t-12{
+    font-size: 12px;
+}
+.negative-margin{
+    margin: -10px;
+}
+.t-9{
+    font-size: 9px;
+}
