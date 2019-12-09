@@ -48,6 +48,12 @@ class PublicController extends Controller
         return view('course', compact('schools'));
     }
 
+    public function showContent($code)
+    {
+        $similarSchools = School::take(6)->get();
+        return view('content', compact('school', 'similarSchools'));
+    }
+
     public function singleSchool($code)
     {
         $school = School::where('short_name', $code)->firstOrFail();

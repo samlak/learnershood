@@ -24,6 +24,8 @@ Route::get('/preview/{token}', 'PublicController@preview');
 Route::get('/courses', 'PublicController@courses');
 Route::get('/course/{code}', 'PublicController@singleCourse');
 
+Route::get('/content/{code}', 'PublicController@showContent');
+
 Route::get('/addcourse', 'AccountController@addCourse');
 Route::post('/addcourse', 'AccountController@storeCourse');
 Route::get('/editcourse/{school}/{code}', 'AccountController@editCourse');
